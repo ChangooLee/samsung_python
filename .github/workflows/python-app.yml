@@ -11,7 +11,7 @@ name: Python application
 
 on:
   schedule:
-    - cron : 36 12 * * *
+    - cron : 30 12 * * *
   push:
     branches: [ main ]
   pull_request:

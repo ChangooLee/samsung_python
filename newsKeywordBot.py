@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
     # #step4.검색할 키워드 설정
     # query  =  input('크롤링 할 뉴스기사 키워드를 입력하세요: ')
-    queries = ["삼성카드"]
+    queries = ["삼성카드","신한카드","현대카드","국민카드","신용카드","금융감독원"]
 
     for query in queries:
 
