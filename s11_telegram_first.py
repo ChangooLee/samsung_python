@@ -3,7 +3,7 @@ import json
 
 # 본인의 토큰 값을 입력하시오
 #MY_TOKEN = '5547787443:AAHEMixtd8-8T45tzkxocNRKa91v2skAw_Y'
-MY_TOKEN = '6085660647:AAG46DNLgMoKYHHaW58FFzdkQbTyIJWCjMk'
+MY_TOKEN = '6107802057:AAFjGvd7-G9aglmPMf6Rj7EUmUGuCm7k34g'
 
 # 본인의 채팅 아이디를 입력하시오
 myChatId = 5736088204
