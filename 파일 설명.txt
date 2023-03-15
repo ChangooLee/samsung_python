@@ -1,0 +1,27 @@
+0. 프로그래밍의 시작! 시작이 반이다! = s00_helloworld.py
+
+1. 누가 가장 빨리 타자치나? = s01_typing_game.py
+
+2. 점쟁이 문어에게 물어보는 올 해 운세는? = s02_fortuneteller_octopus.py
+
+3. 유투브 동영상을 내 컴퓨터에 받아보자 = s03_youtube_download.py
+
+4. 단순 작업하던 여러파일의 이름을 한 번에 바꿔볼 순 없을까? =s04_rename_file.py 
+
+5. 나의 QR코드를 만들어서 서로 공유해보자 =  s05_qrcode_generator.py
+
+6. 나만의 영어 단어장 만들어보고 테스트해보자 = s06_english_quiz.py
+
+7. 관심 주식 종목을 관리해보자 = s07_manage_stocks.py
+
+8. 코인을 적립식 투자해보자 = s08_invest_coin.py
+
+9. 유투브 댓글로 평판 관리를 해보자 = s09_youtube_comment_selenium.py
+
+10. 네이버 금융에서 주가 시세를 한 번에 가져와보자 = s10_getStockPrice.py
+
+11. 텔레그램에 메세지를 보내보자 = s11_telegram_first.py
+
+12. 내가 받아오고 싶은 내용을 텔레그램으로 매일 받아오게 하자 = s12_telegramBot.py
+
+13. weight 데이터를 가지고 t_test를 돌려보자 = s13_t_test.py
