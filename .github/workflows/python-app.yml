@@ -35,3 +35,6 @@ jobs:
       - name: samsungcardbot
         run: |
           python newsKeywordBot.py
+      - name: anamaptremodelling
+        run: |
+          python remodellingBot.py
