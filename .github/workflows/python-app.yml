@@ -11,13 +11,11 @@ name: Python application
 
 on:
   schedule:
-    - cron : 33 12 * * *
+    - cron : 36 12 * * *
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
- 
 
 jobs:
   build:
@@ -25,15 +23,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.9.7
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9.7
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests==2.27.1 bs4==0.0.1 python-telegram-bot==13.14 schedule
-   - name: samsungcardbot
-      run: |
-        python newsKeywordBot.py
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9.7
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests==2.27.1 bs4==0.0.1
+      - name: samsungcardbot
+        run: |
+          python newsKeywordBot.py
