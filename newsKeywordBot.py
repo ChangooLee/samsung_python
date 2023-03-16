@@ -55,7 +55,7 @@ def send_links(query):
 if __name__ == '__main__':
 
     # 토큰을 변수에 저장
-    bot_token = '6085660647:AAG46DNLgMoKYHHaW58FFzdkQbTyIJWCjMk'
+    bot_token = '6036911661:AAEb1hRr4TZJmYVl5LiQs_BB4Ejsb_bTNyA'
     bot = telegram.Bot(token=bot_token)
 
     # 가장 최근에 온 메세지의 정보 중, chat id만 가져옴 (이 chat id는 사용자(나)의 계정 id임)
