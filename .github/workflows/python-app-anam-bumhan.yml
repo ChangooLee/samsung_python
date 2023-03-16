@@ -10,8 +10,8 @@
 name: Python application
 
 on:
-  schedule:
-    - cron : 36 12 * * *
+#  schedule:
+#    - cron : 36 12 * * *
   push:
     branches: [ main ]
   pull_request:
