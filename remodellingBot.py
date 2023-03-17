@@ -74,9 +74,10 @@ if __name__ == '__main__':
         # step5.기존에 보냈던 링크를 담아둘 리스트 만들기
         old_links = []
 
+        send_links(query)
         # 주기적 실행과 관련된 코드 (hours는 시, minutes는 분, seconds는 초)
-        job = schedule.every(10).seconds.do(send_links, query)
+    #    job = schedule.every(10).seconds.do(send_links, query)
 
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    #while True:
+    #    schedule.run_pending()
+    #    time.sleep(1)
