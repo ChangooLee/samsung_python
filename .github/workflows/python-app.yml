@@ -2,8 +2,8 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 # https://crontab.guru/
-# 한국 11시면 cron에 11-9=2로 표현
-# 한국 22시면 22-9 = 13
+# 한국 11시면 cron에 11-9=2로 표현 
+# 한국 22시면 22-9 = 13 
 # 5분이라 걸어놓음 10분 후 쯤 15분에 알람 옴
 # cron순서 - 분 시
 
