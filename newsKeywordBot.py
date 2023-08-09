@@ -47,7 +47,6 @@ def send_links(query):
         pass
 
     # 기존 링크를 계속 축적하기 위함
-
     old_links += new_links.copy()
 
 
